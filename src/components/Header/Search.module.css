@@ -1,0 +1,27 @@
+.search-box {
+  position: relative;
+  width: 28rem;
+}
+.search-icon {
+  position: absolute;
+  right: 16%;
+  top: 21%;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 22px;
+  color: var(--light-text-color);
+}
+.search-box input {
+  width: 88%;
+  outline: none;
+  padding: 9px 10px;
+  border: none;
+  border-radius: 13px;
+  background-image: var(--first-gradient);
+  color: var(--light-text-color);
+  text-shadow: 0 0 4px #000000;
+}
+.search-box input:focus {
+  box-shadow: 0 0 10px var(--primary-color), 0 0 5px var(--light-text-color),
+    0 0 15px var(--primary-color), 0 5px 5px #000, 0 -1px #000;
+}

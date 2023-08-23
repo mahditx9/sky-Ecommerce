@@ -1,0 +1,29 @@
+/* TOP-BAR */
+.top-bar {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* #FIXME */
+.logo {
+  cursor: pointer;
+}
+.top-bar-box a {
+  color: var(--primary-color);
+  margin: 0 0.6rem;
+  font-size: 19px;
+}
+.top-bar a i {
+  margin-right: 0.3rem;
+}
+/* TOP-BAR */
+@media only screen and (max-width: 1500px) {
+  .top-bar-box {
+    /* display: none; */
+  }
+  .top-bar {
+    justify-content: center;
+    gap: 2rem;
+  }
+}

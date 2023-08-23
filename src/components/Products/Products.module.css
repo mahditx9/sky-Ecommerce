@@ -1,0 +1,10 @@
+/* PRODUCTS STYLES */
+.products {
+  background-color: #efef;
+  width: 90% !important;
+  margin: 6rem auto 0;
+  border-radius: 13px;
+  box-shadow: var(--box-shadow);
+  min-height: 100vh;
+  padding: 2rem;
+}

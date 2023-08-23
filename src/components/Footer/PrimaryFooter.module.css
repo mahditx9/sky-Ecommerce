@@ -1,0 +1,26 @@
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.logo-box {
+  position: relative;
+}
+.logo-box img {
+  max-width: 100%;
+  object-fit: fill;
+  width: 150px;
+  height: 150p x;
+}
+.payments-box {
+  display: flex;
+  gap: 0.3rem;
+}
+.payments-box h4 {
+  color: var(--primary-color);
+}
+.payment-icon {
+  font-size: 22px;
+  /* colo */
+  margin: 0 0.3rem;
+}

@@ -1,0 +1,17 @@
+.timer-box {
+  text-shadow: none !important;
+  margin: 0 0.8rem !important;
+  width: 90px;
+  height: 90px;
+  color: var(--light-text-color);
+  background: #003444;
+  padding: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  font-weight: 600;
+  flex-direction: column;
+  gap: 0.1rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+}

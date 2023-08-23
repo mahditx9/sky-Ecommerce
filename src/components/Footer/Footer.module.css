@@ -1,0 +1,43 @@
+.footer {
+  width: 100% !important;
+  border-top: 1px solid #1d1d1d;
+  display: grid;
+  grid-template-columns: 40% repeat(3, 1fr);
+  /* grid-auto-flow: column; */
+  column-gap: 3rem;
+  align-items: center;
+  justify-content: center !important;
+  padding: 2rem;
+  /* padding-bottom: 3rem !important; */
+}
+.col h2 {
+  position: relative;
+  padding: 1rem 0;
+  color: var(--primary-color);
+}
+/* .col h2 ::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-color);
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+} */
+.col ul li {
+  font-size: 18px;
+  margin: 0.1rem 0;
+}
+.col ul li:hover a {
+  color: var(--primary-color) !important;
+  padding-left: 0.4rem;
+}
+.useful li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.useful-icon {
+  color: var(--primary-color);
+  font-size: 21px;
+}

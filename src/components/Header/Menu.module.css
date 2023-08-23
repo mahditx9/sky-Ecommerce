@@ -1,0 +1,34 @@
+.menu:global(.scrolled a) {
+  color: var(--light-text-color) !important;
+}
+@keyframes stickyHeader {
+  0% {
+    transform: translateY(-80px);
+    background-color: var(--light-text-color);
+  }
+  100% {
+    transform: translateY(0);
+    background: rgba(0, 0, 0, 0.9);
+  }
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu a {
+  font-size: 22px;
+  color: var(--dark-text-color);
+}
+.menu a.active {
+  color: var(--primary-color) !important;
+}
+.menu a.active:hover {
+  border-bottom: 1px solid #000 !important;
+}
+
+.menu a:hover {
+  padding-bottom: 4px;
+  border-bottom: 3px solid var(--primary-color);
+}
+/* NAV MENU */

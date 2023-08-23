@@ -1,0 +1,17 @@
+/* GUAIDENCE */
+.guaidence {
+  display: flex;
+  column-gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  background: var(--light-text-color);
+  width: 90% !important;
+  margin: auto;
+  margin: 3rem auto;
+  border-radius: 13px;
+  box-shadow: var(--box-shadow);
+  animation: showY 1.6s;
+  padding: 2.5rem;
+}
+
+/* GUAIDENCE */
